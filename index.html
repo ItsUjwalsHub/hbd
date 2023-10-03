@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Image on Button Click</title>
+    
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: black;
+        }
+        img {
+            display: none; /* Initially hide the image */
+            max-width: 100%;
+            height: auto;
+        }
+        div{
+            margin: 10px;
+            padding: 30px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        h1{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML content -->
+    <div>
+        <h1>Show Image on Button Click</h1>
+        <button id="showButton">chhuna mtt lawdya</button>
+        <img id="imageToShow" src="img/1522032351085.jpg" alt="Image description">
+    </div>
+    <div>
+        <button id="showButton2">laa to dekhu phn me</button>
+        <img id="imageToShow2" src="img/1528042215035.jpg" alt="Image description">
+    </div>
+    <div>
+        <button id="showButton3">aaye haye raja ji</button>
+        <img id="imageToShow3" src="img/1528938765079.jpg" alt="Image description">
+    </div>
+    <div>
+        <button id="showButton4">cameraman jaldi focus kro</button>
+        <img id="imageToShow4" src="img/1547528384683.jpg" alt="Image description">
+    </div>
+    <div>
+        <button id="showButton5">mt dekh bhai</button>
+        <img id="imageToShow5" src="img/1547528388363.jpg" alt="Image description">
+
+    </div>
+    <div>
+
+        <button id="showButton6">dunu sapkhor</button>
+        <img id="imageToShow6" src="img/1563207813976.jpg" alt="Image description">
+    </div>
+    <div>
+
+        <button id="showButton7">Aman hakim khan</button>
+        <img id="imageToShow7" src="img/1564066296198.jpg" alt="Image description">
+    </div>
+    <button onclick="window.location.href='hbd.html'">Go to Page 2</button>
+
+    <!-- JavaScript -->
+    <script>
+        // JavaScript code to handle button click
+        document.getElementById('showButton').addEventListener('click', function() {
+            var image = document.getElementById('imageToShow');
+            if (image.style.display === 'none') {
+                image.style.display = 'block';
+            } else {
+                image.style.display = 'none';
+            }
+        });
+        document.getElementById('showButton2').addEventListener('click', function() {
+            var image = document.getElementById('imageToShow2');
+            if (image.style.display === 'none') {
+                image.style.display = 'block';
+            } else {
+                image.style.display = 'none';
+            }
+        });
+        document.getElementById('showButton3').addEventListener('click', function() {
+            var image = document.getElementById('imageToShow3');
+            if (image.style.display === 'none') {
+                image.style.display = 'block';
+            } else {
+                image.style.display = 'none';
+            }
+        });
+        document.getElementById('showButton4').addEventListener('click', function() {
+            var image = document.getElementById('imageToShow4');
+            if (image.style.display === 'none') {
+                image.style.display = 'block';
+            } else {
+                image.style.display = 'none';
+            }
+        });
+        document.getElementById('showButton5').addEventListener('click', function() {
+            var image = document.getElementById('imageToShow5');
+            if (image.style.display === 'none') {
+                image.style.display = 'block';
+            } else {
+                image.style.display = 'none';
+            }
+        });
+        document.getElementById('showButton6').addEventListener('click', function() {
+            var image = document.getElementById('imageToShow6');
+            if (image.style.display === 'none') {
+                image.style.display = 'block';
+            } else {
+                image.style.display = 'none';
+            }
+        });
+        document.getElementById('showButton7').addEventListener('click', function() {
+            var image = document.getElementById('imageToShow7');
+            if (image.style.display === 'none') {
+                image.style.display = 'block';
+            } else {
+                image.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
